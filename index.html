@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rumble in the Jungle!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="title">
+			<div class="title-wording">
+			Jungle Hangman!
+			</div>
+				<div class="subtitle">
+					[Dying... but in the WILD]
+				</div>
+		</div>
+	</header>
+
+	<div class="game-area"> 
+		<!-- Create hangman image on the left side of game body area. -->
+		<div class="hang-man-image">
+			<img src="assets/images/monkey.png" class="monkey">
+			<img src="assets/images/gator.png" class="gator">
+		</div>
+		<!-- Create hangman interface on the right side of the game body area. -->
+		
+		<div id="text">
+			<p>
+			Press any key to get started!
+			<br>
+			<br>
+			Current Word
+			<br>
+			<br>
+			<h1 class="WORD"></h1>
+			<br>
+			There are <span id="numLetters"></span> letters in this word.
+			<br>
+			<br>
+			Wins: <span id="wins"></span>
+			<br>
+			<br>
+			You have <span id="guessesAmount"></span> guesses left.
+			<br>
+			<br>
+			Letters you have guessed: 
+			<br>
+			<br>
+			<div id="letters">
+				<a id="a">A</a>
+				<a id="b">B</a>
+				<a id="c">C</a>
+				<a id="d">D</a>
+				<a id="e">E</a>
+				<a id="f">F</a>
+				<a id="g">G</a>
+				<a id="h">H</a>
+				<a id="i">I</a>
+				<a id="j">J</a>
+				<a id="k">K</a>
+				<a id="l">L</a>
+				<a id="m">M</a>
+				<a id="n">N</a>
+				<a id="o">O</a>
+				<a id="p">P</a>
+				<a id="q">Q</a>
+				<a id="r">R</a>
+				<a id="s">S</a>
+				<a id="t">T</a>
+				<a id="u">U</a>
+				<a id="v">V</a>
+				<a id="w">W</a>
+				<a id="x">X</a>
+				<a id="y">Y</a>
+				<a id="z">Z</a>
+			</div>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

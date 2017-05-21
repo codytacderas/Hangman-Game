@@ -1,0 +1,97 @@
+html {
+	background: url('../images/jungle.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.title {
+	background: url('../images/wood.jpg') repeat center center fixed;
+	margin-left: 21%;
+	margin-top: 10%;
+	height: 325px;
+	width: 60%;
+	opacity: 1;
+	border-style: double;
+	border-color: brown;
+	border-radius: 8px;
+	border-width: 5px;
+}
+.title-wording {
+	float: left;
+	margin-left: 5%;
+	margin-top: 10%;
+	font-family: 'Permanent Marker', cursive;
+	color: green;
+	font-size: 90px;
+	text-align: center;
+	text-shadow:
+		-3px -3px 0 #000,  
+		-3px -3px 0 #000,
+		-3px -3px 0 #000,
+		-3px -3px 0 #000; 
+}
+.subtitle {
+	clear: both;
+	margin-top: 10px;
+	margin-left: 25%;
+	font-family: 'Permanent Marker', cursive;
+	color: yellow;
+	font-size: 40px;
+	text-shadow:
+		-2px -2px 0 #000,  
+		-2px -2px 0 #000,  
+		-2px -2px 0 #000,  
+		-2px -2px 0 #000;
+	transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
+    transform: rotate(-8deg);
+}
+.game-area {
+	background: url('../images/wood.jpg') repeat center center fixed;
+	margin-left: 12%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 50px;
+	height: 450px;
+	width: 70%;
+	opacity: 1;
+	border-style: double;
+	border-color: brown;
+	border-radius: 8px;
+	border-width: 5px;
+}
+.gator {
+	float: left;
+	margin-left: -10%;
+}
+.monkey {
+	margin-top: 15%;
+	margin-left: -55%;
+}
+.hang-man-interface {
+	float: left;
+}
+#text {
+	margin-top: -42%;
+	font-family: 'Permanent Marker', cursive;
+	color: green;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-shadow:
+		-1px -1px 0 #000,  
+   		1px -1px 0 #000,
+    	-1px 1px 0 #000,
+     	1px 1px 0 #000;
+}
+#letters {
+	cursor: pointer;
+}
+#letters a:hover{
+	color: yellow;
+}
+#letters a .de{
+	color: gray;
+	text-decoration: underline;
+}
